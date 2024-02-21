@@ -16,7 +16,6 @@ public class Main {
         }
     }
 
-    // Archer specific attack strategy
     public static class ShootArrow implements AttackStrategy
     {
         @Override
@@ -26,7 +25,6 @@ public class Main {
         }
     }
 
-    // Knight specific defense strategies
     public static class Shield implements DefenseStrategy
     {
         @Override
@@ -54,7 +52,6 @@ public class Main {
         }
     }
 
-    // Wizard specific defense strategy
     public static class MagicBarrier implements DefenseStrategy
     {
         @Override
@@ -64,7 +61,6 @@ public class Main {
         }
     }
 
-    // Archer specific defense strategy
     public static class ShieldDefense implements DefenseStrategy
     {
         @Override
